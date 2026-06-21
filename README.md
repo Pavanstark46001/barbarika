@@ -1,2 +1,0 @@
-# barbarika
-barbarika digital solutions
