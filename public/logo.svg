@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <!-- Icon mark -->
+  <rect x="0" y="0" width="48" height="48" rx="12" fill="url(#grad)"/>
+  <path d="M24 10 L32 22 H26 L34 38 L16 24 H22 L14 10 Z" fill="white" stroke="none"/>
+  <!-- Wordmark -->
+  <text x="58" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.5" fill="#0f0f1a">Barbarika</text>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+</svg>

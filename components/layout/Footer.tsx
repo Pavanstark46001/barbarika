@@ -146,7 +146,7 @@ export function Footer() {
             © {year} {SITE_NAME}. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            {footerLinks.company.map((link) => (
+            {footerLinks.legal.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}

@@ -49,10 +49,14 @@ export const footerLinks = {
     { label: 'Loan Management', href: '/solutions/loan-management' },
   ],
   company: [
-    { label: 'About Us', href: '/about' },
-    { label: 'Portfolio', href: '/portfolio' },
-    { label: 'Contact', href: '/contact' },
-    { label: 'Careers', href: '/careers' },
-    { label: 'Blog', href: '/blog' },
+    { label: 'About Us',       href: '/about' },
+    { label: 'Portfolio',      href: '/portfolio' },
+    { label: 'Careers',        href: '/careers' },
+    { label: 'Blog',           href: '/blog' },
+    { label: 'Contact',        href: '/contact' },
+  ],
+  legal: [
+    { label: 'Privacy Policy', href: '/privacy' },
+    { label: 'Terms of Service', href: '/terms' },
   ],
 }

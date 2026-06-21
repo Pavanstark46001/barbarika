@@ -18,7 +18,9 @@ const organizationSchema = {
       url: SITE_URL,
       logo: {
         '@type': 'ImageObject',
-        url: `${SITE_URL}/logo.png`,
+        url: `${SITE_URL}/logo.svg`,
+        width: 200,
+        height: 48,
       },
       description: SITE_DESCRIPTION,
       email: CONTACT_EMAIL,
@@ -47,11 +49,6 @@ const organizationSchema = {
       url: SITE_URL,
       name: SITE_NAME,
       publisher: { '@id': `${SITE_URL}/#organization` },
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/search?q={search_term_string}` },
-        'query-input': 'required name=search_term_string',
-      },
     },
   ],
 }
